@@ -21,4 +21,5 @@
 [put, id = 5dbadbf91c5da1266dc431ac](http://localhost:3003/api/5dbadbf91c5da1266dc431ac)  
 [delete, id = 5dbadbf91c5da1266dc431ac](http://localhost:3003/api/5dbadbf91c5da1266dc431ac)  
 
-#### observação, os métodos ( post, put ),  precisam que coloque os paramêtros no body da requisição, eles são obrigatórios.
+##### observação, 
+Os métodos ( post, put ),  precisam que coloque os paramêtros no body da requisição, eles são obrigatórios.
