@@ -15,8 +15,10 @@
 
 ## exemplo de chamada da api, com o server rodando.
 
-[get]http://localhost:3003/api/contato
-[get retornando um contato]http://localhost:3003/api/5dbadbf91c5da1266dc431ac
-[post, coloque os parametros no corpo]http://localhost:3003/api/contato
-[put, coloque os parametros no corpo]http://localhost:3003/api/5dbadbf91c5da1266dc431ac
-[delete]http://localhost:3003/api/5dbadbf91c5da1266dc431ac
+[get](http://localhost:3003/api/contato)
+[get, id = 5dbadbf91c5da1266dc431ac](http://localhost:3003/api/5dbadbf91c5da1266dc431ac)
+[post, coloque os parametros no corpo](http://localhost:3003/api/contato)
+[put, id = 5dbadbf91c5da1266dc431ac](http://localhost:3003/api/5dbadbf91c5da1266dc431ac)
+[delete, id = 5dbadbf91c5da1266dc431ac](http://localhost:3003/api/5dbadbf91c5da1266dc431ac)
+
+#### observação, os métodos ( post, put ),  precisam que coloque os paramêtros no body da requisição, eles são obrigatórios.
